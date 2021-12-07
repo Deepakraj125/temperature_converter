@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset= "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"  href ="style.css">
+        <title>Temperature converter App</title>
+    </head>
+
+    <body>
+    
+         <form id ="form"  onsubmit="calculate(); return false">
+            <div class = "text"> 
+                <label>Enter the temperature:</label><br/><br/>
+                <input type ="number" name ="temp" id ="temp">
+
+                <select name="temp_unit" id ="temp_unit">
+                    <option value ="cel">°C</option>
+                    <option value="fah">°F</option>
+                    <option value ="kel">K</option>
+                </select><br/>
+            </div>
+            <div class= "submit-button">
+                <input type ="submit" name="temp" class ="submit">
+            </div>
+            <div class ="result-box">
+                <div id ="result_holder1"></div>
+                <div id ="result_holder2"></div>
+            </div>
+        </form>
+        <script src ="script.js"></script>
+    </body>
+</html>

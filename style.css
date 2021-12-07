@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box;
+
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color:beige;
+    display:grid;
+    place-items: center;
+}
+
+.submit{
+    border:2px solid grey;
+    border-radius:4px;
+}
+
+.submit:hover{
+    background: #f4432f;
+    transition:0.5s;
+}
+
+.submit-button{
+    margin-top:20px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.result-box{
+    margin-top:20px;
+    border: 2px solid black;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
